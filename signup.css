@@ -146,11 +146,3 @@ background-color: #1ea7ff;
   margin-top: 20px;
   font-size: 13px;
 }
-
-/* Responsive for smaller screens */
-@media (max-width: 420px) {
-  .card {
-    padding: 22px;
-    border-radius: 12px;
-  }
-}
