@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: inherit;
+  background-color: #101014;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  color: white;
+    padding: 20px 48px;
+    height: 100%;
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background: #18181c;
+  padding: 50px;
+  padding-left:30px;
+  border: 2px solid rgb(52, 51, 51);
+  width: 100px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+  text-align: left;
+}
+
+.back {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.h1 {
+  background-color: #18181c;
+  font-size: 20px;
+  margin: 10px 0 18px;
+}
+
+.label {
+  background-color: #18181c;
+  display: block;
+  font-size: 13px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+#email {
+  background-color: #37373a;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background-color:#2a2a2c;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 16px;
+}
+#email:hover{
+    border-color: aliceblue;
+}
+
+.continue {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #37373a;
+  color: rgba(255,255,255,0.35);
+  cursor: pointer;
+  margin-bottom: 16px;
+}.con{
+  text-decoration: none;
+  color:rgba(255,255,255,0.35);
+  background-color: #37373a;
+
+}
+.con:active{
+background-color: #1ea7ff;
+}
+.continue:active{
+    background-color: #1ea7ff;
+    
+}
+
+.or {
+  background-color: #18181c;
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.btn.social {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #202024;
+  color: var(--text);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btn.social:hover{
+    background-color: #2a2a2c;
+}
+
+.btn.social img {
+  width: 18px;
+  height: 18px;
+}
+
+.btn.social.apple .icon {
+  font-size: 20px;
+}
+
+.privacy {
+  display: block;
+  padding-left: 10px;
+  background-color: #18181c;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 420px) {
+  .card {
+    padding: 22px;
+    border-radius: 12px;
+  }
+}
